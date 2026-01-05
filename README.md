@@ -25,19 +25,43 @@ The goal of this repository is **hands-on learning**, **clean code**, and **dail
 
 jdbc-hibernate-spring-springboot
 │
-├── project-01-jdbc
+├── project-01-JDBC(basic connectivity with database)
 │ ├── src
 │ └── README.md
 │
-├── project-02-hibernate
+├── project-02-JDBC
 │ ├── src
 │ └── README.md
 │
-├── project-03-spring
+├── project-03-JDBC
 │ ├── src
 │ └── README.md
 │
-├── project-04-springboot
+├── project-04-JDBC
+│ ├── src
+│ └── README.md
+│
+├── project-04-
+│ ├── src
+│ └── README.md
+|
+├── project-04-
+│ ├── src
+│ └── README.md
+│
+├── project-04-
+│ ├── src
+│ └── README.md
+│
+├── project-04-
+│ ├── src
+│ └── README.md
+│
+├── project-04-
+│ ├── src
+│ └── README.md
+│
+├── project-04-
 │ ├── src
 │ └── README.md
 │
@@ -51,16 +75,15 @@ jdbc-hibernate-spring-springboot
 
 ## 📘 Project Breakdown
 
-### 🔹 Project 01 – JDBC
+### 🔹 Project 01 – JDBC(basic connectiviy)
 - JDBC connection handling
-- CRUD operations using `PreparedStatement`
-- MySQL database integration
-- Understanding DAO pattern
-- Exception handling in JDBC
+- just connected the java with MYSQL database
+- used the connection mentod for that by using the prepared statement
+  
 
 ---
 
-### 🔹 Project 02 – Hibernate
+### 🔹 Project 02 – JDBC
 - Hibernate configuration
 - Entity mapping (annotations)
 - CRUD operations using ORM
@@ -69,7 +92,7 @@ jdbc-hibernate-spring-springboot
 
 ---
 
-### 🔹 Project 03 – Spring Framework
+### 🔹 Project 03 – JDBC
 - Spring Core concepts
 - Dependency Injection
 - Java-based configuration
@@ -78,7 +101,7 @@ jdbc-hibernate-spring-springboot
 
 ---
 
-### 🔹 Project 04 – Spring Boot
+### 🔹 Project 04 – JDBC
 - Spring Boot auto-configuration
 - JPA & Hibernate integration
 - CRUD operations with Spring Data JPA
@@ -124,6 +147,7 @@ jdbc-hibernate-spring-springboot
 
 ## 👤 Author
 **Haridas Shinde**
+-Aspiring full stack developer
 
 ---
 
