@@ -19,15 +19,19 @@ public class App
 //        e.setName("Haridas");
 //        e.setDesignation("java developer");
 //        e.setSalary(6789.0);
+//        
+//        ed.insertEmployee(e);
         
-//        List<Employee> list=ed.getAllEmployees();
-//        for(Employee e1:list)
-//        	System.out.println(e1);
-        
-        e.setName("alex");
-        e.setId(1);
-        ed.updateEmployee(e);
+      List<Employee> list=ed.getAllEmployees();
+      for(Employee e1:list)
+      	System.out.println(e1);
+
+      //e.setName("alex");
+      //e.setId(1);
+      //ed.updateEmployee(e);
         
         
     }
 }
+
+
