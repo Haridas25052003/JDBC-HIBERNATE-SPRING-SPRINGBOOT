@@ -35,7 +35,7 @@ public class EmployeeDao {
 		List<Employee> list = new ArrayList<>();
 		String query = "SELECT * FROM employee";
 
-		try (Connection conn = DBConnection.getConnection();
+		try (Connection conn = DBConnection.createConnection();
 				Statement st = conn.createStatement();
 				ResultSet rs = st.executeQuery(query)) {
 
@@ -60,14 +60,17 @@ public class EmployeeDao {
 		//D:\JDBC-HIBERNATE-SPRING-SPRINGBOOT
 		
 		try (Connection conn = DBConnection.createConnection();
-	             PreparedStatement pst = conn.prepareStatement(query)) {
+	             PreparedStatement pst = conn.prepareStatement(sql)) {
 
-	            pst.setInt(1, "id");
+	            pst.setInt(1, e.getId());
+	            pst.setString(2, e.getName());
+	            pst.setString(3, e.getDesignation());
+	            pst.setDouble(4, e.getSalary());
 	            pst.executeUpdate();
 	            System.out.println("Employee deleted successfully!");
 	        } catch (SQLException e1) {
 	            e1.printStackTrace();
-	        
 	        }
+	}
 
 }
