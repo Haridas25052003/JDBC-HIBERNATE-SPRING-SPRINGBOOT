@@ -33,7 +33,7 @@ jdbc-hibernate-spring-springboot
 │ ├── src
 │ └── README.md
 │
-├── project-03-JDBC
+├── project-03-JDBC-(try block resource)
 │ ├── src
 │ └── README.md
 │
@@ -92,7 +92,7 @@ jdbc-hibernate-spring-springboot
 
 ---
 
-### 🔹 Project 03 – JDBC
+### 🔹 Project 03 – JDBC-try block resource
 - Spring Core concepts
 - Dependency Injection
 - Java-based configuration
