@@ -57,7 +57,17 @@ public class EmployeeDao {
 	public void updateEmployee(Employee e) {
 		String sql="update employee set name=?,designation=?,salary=? where id=?";
 		
+		//D:\JDBC-HIBERNATE-SPRING-SPRINGBOOT
 		
-	}
+		try (Connection conn = DBConnection.createConnection();
+	             PreparedStatement pst = conn.prepareStatement(query)) {
+
+	            pst.setInt(1, "id");
+	            pst.executeUpdate();
+	            System.out.println("Employee deleted successfully!");
+	        } catch (SQLException e1) {
+	            e1.printStackTrace();
+	        
+	        }
 
 }
