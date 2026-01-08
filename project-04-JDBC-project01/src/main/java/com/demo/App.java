@@ -2,7 +2,7 @@ package com.demo;
 
 import java.sql.Connection;
 
-import com.dao.DBConnection;
+import com.util.DBConnection;
 
 /**
  * Hello world!
