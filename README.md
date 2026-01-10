@@ -27,14 +27,21 @@ jdbc-hibernate-spring-springboot
 │
 ├── project-01-JDBC(basic connectivity with database)
 │ ├── src
+|     |-com.demo
 │ └── README.md
 │
 ├── project-02-JDBC
 │ ├── src
+|     |-com.demo
+|     |-com.dao
+|     |-com.model
 │ └── README.md
 │
 ├── project-03-JDBC-(try block resource)
 │ ├── src
+|     |-com.demo
+|     |-com.dao
+|     |-com.model
 │ └── README.md
 │
 ├── project-04-JDBC
@@ -84,20 +91,18 @@ jdbc-hibernate-spring-springboot
 ---
 
 ### 🔹 Project 02 – JDBC
-- Hibernate configuration
-- Entity mapping (annotations)
-- CRUD operations using ORM
-- Dialect handling (MySQL 8)
-- Understanding session & transaction lifecycle
+- Manual closing required every time.
+- Longer, complex finally blocks.
+- Commonly causes memory leaks.
+- Contains much repetitive code.
 
 ---
 
 ### 🔹 Project 03 – JDBC-try block resource
-- Spring Core concepts
-- Dependency Injection
-- Java-based configuration
-- DAO & Service layer separation
-- Transaction management basics
+- Auto-closes all database resources.
+- Prevents critical memory leaks.
+- Removes messy boilerplate code.
+- Ensures safer exception handling.
 
 ---
 
